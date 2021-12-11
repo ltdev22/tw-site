@@ -8,9 +8,9 @@
         <title>Tailwind Website</title>
     </head>
     <body class="text-gray-600 font-body">
-        <div>
+        <div class="grid lg:grid-cols-5">
             <!-- Start: Navigation -->
-            <div>
+            <aside class="lg:col-span-1">
                 <nav>
                     <div class="font-bold p-4 border-b border-gray-100">
                         <a href="#">
@@ -29,10 +29,10 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </aside>
             <!-- End: Navigation -->
             <!-- Start: Main Content -->
-            <main class="px-16 py-6 bg-gray-100">
+            <main class="lg:col-span-4 px-16 py-6 bg-gray-100">
                 <section class="flex justify-center md:justify-end">
                     <a href="#" class="text-green-600"><span>Sign In</span></a>
                     <a href="#" class="text-green-600 ml-2"><span>Sign up</span></a>
@@ -45,7 +45,7 @@
 
                 <section>
                     <h3 class="font-bold mt-12 pb-2 border-b border-gray-200">Qui incididunt est aliquip tempor sit ut elit qui voluptate</h3>
-                    <div class="mt-8">
+                    <div class="mt-8 grid md:grid-cols-3 gap-5">
                         <!-- START: card -->
                         <div class="card">
                             <img src="https://media.istockphoto.com/photos/indian-cuisine-dinner-tandoori-chicken-biryani-picture-id1240291641" class="w-full h-32 sm:h48 object-cover" />
@@ -89,7 +89,7 @@
 
                 <section>
                     <h3 class="font-bold mt-12 pb-2 border-b border-gray-200">Esse mollit nisi ipsum et id proident anim aliqua in in laboris id occaecat anim.</h3>
-                    <div class="mt-8">
+                    <div class="mt-8 grid md:grid-cols-3 gap-5">
                         <!-- START card -->
                         <div class="card">
                             <img src="https://media.istockphoto.com/photos/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-picture-id1285827567" class="w-full h-32 sm:h48 object-cover" />
