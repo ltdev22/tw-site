@@ -28,4 +28,13 @@
     .btn-red {
         @apply bg-red-300 border-red-600 text-red-600;
     }
+    .btn-2 {
+        @apply shadow-md py-3 px-6 rounded-md transition duration-300 cursor-pointer;
+    }
+    .btn-purple {
+        @apply bg-purple-400 text-white hover:bg-white border hover:border-purple-400 hover:text-purple-400;
+    }
+    .btn-white {
+        @apply bg-gray-100 text-gray-700 border border-gray-700 hover:bg-gray-600 hover:text-white;
+    }
 }
