@@ -1,5 +1,9 @@
 # tw-site
-Website developed with TailwindCss
+Website developed with TailwindCss.
+
+Links from courses:
+- Build a Modern Landing Page With Tailwind CSS [https://www.youtube.com/watch?v=00gyCtIQp8E](https://www.youtube.com/watch?v=00gyCtIQp8E)
+- Tailwind playlist from The Net Ninja [https://www.youtube.com/playlist?list=PL4cUxeGkcC9ht1OMQPhBVKAb2dVLhg-MJ](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ht1OMQPhBVKAb2dVLhg-MJ)
 
 ### Commands
 
